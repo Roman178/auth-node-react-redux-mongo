@@ -38,3 +38,6 @@ npm run dev
 _Note: make sure ports 5000 and 3000 are free._
 
 Next, go to the browser on [http://localhost:3000/](http://localhost:3000/).
+
+### Deployment
+The project is deployed [here](https://auth-node-react-mongo.herokuapp.com/).
