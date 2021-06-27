@@ -1,9 +1,12 @@
-# Authentication and authorization
+# Регистрация и авторизация по JWT токену.
 
-The user registration and authorization interface is implemented.
-The profile picture is displayed depending on the user's role (admin or user).
+Реализован интерфейс регистрации и авторизации пользователей.
+Изображение профиля меняется в зависимости от роли пользователя (администратор или пользователь).
 
-### Stack:
+### Deployment
+Проект развернут [здесь](https://auth-node-react-mongo.herokuapp.com/).
+
+### Стэк:
 
 - Node.js
 - Express.js
@@ -11,33 +14,31 @@ The profile picture is displayed depending on the user's role (admin or user).
 - React
 - Redux
 
-## Run the project
+## Запуск проекта
 
-Clone the repository.
+Клонируйте репозиторий.
 
-Being in the root directory of the project, install all the necessary dependencies with the command:
+Находясь в корневой директории проекта, установите все необходимые зависимости командой:
 
 ```sh
 npm install
 ```
 
-Go to the client directory and install the client-side dependencies:
+Перейдите в директорию "client" и установите все зависимости для клиентской части командой:
 
 ```sh
 cd client
 npm install
 ```
 
-Go back to the root directory and run the project:
+Вернитесь в корневую директорию и запустите проект::
 
 ```sh
 cd ..
 npm run dev
 ```
 
-_Note: make sure ports 5000 and 3000 are free._
+_Примечание: убедитесь что порты 3000 и 5000 свободны._
 
-Next, go to the browser on [http://localhost:3000/](http://localhost:3000/).
+Далее, перейдите в браузере на [http://localhost:3000/](http://localhost:3000/).
 
-### Deployment
-The project is deployed [here](https://auth-node-react-mongo.herokuapp.com/).
