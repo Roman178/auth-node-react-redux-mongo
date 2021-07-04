@@ -1,0 +1,3 @@
+{
+  "mongoUriTest": "mongodb+srv://roma:123456roma@cluster0.uroqf.mongodb.net/testDb?retryWrites=true&w=majority"
+}
